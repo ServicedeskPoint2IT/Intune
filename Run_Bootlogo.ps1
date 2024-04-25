@@ -1,6 +1,6 @@
 $BootlogoFolder = "C:\ProgramData\Bootlogo"
-If (Test-Path $DebloatFolder) {
-    Write-Output "$DebloatFolder exists. Skipping."
+If (Test-Path $BootlogoFolder) {
+    Write-Output "$BootlogoFolder exists. Skipping."
 }
 Else {
     Write-Output "The folder '$BootlogoFolder' doesn't exist. This folder will be used for storing logs created after the script runs. Creating now."
